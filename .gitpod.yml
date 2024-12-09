@@ -1,0 +1,5 @@
+tasks:
+    - init: |
+          npm install -g @angular/cli@17
+    - command: |
+          ng new new-project
